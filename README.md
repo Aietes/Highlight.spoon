@@ -23,7 +23,7 @@ hs.loadSpoon("SpoonInstall")
 spoon.SpoonInstall.repos.Highlight = {
     url = "https://github.com/Aietes/Highlight.spoon",
     desc = "Highlight.spoon repository",
-    branch = "main",
+    branch = "release",
 }
 
 spoon.SpoonInstall:andUse("Highlight", {

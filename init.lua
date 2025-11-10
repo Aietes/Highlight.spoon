@@ -7,7 +7,7 @@ Highlight.__index = Highlight
 
 Highlight.name = "Highlight"
 Highlight.version = "0.2.0"
-Highlight.author = "Aites"
+Highlight.author = "Aietes"
 Highlight.homepage = "https://github.com/aietes/Highlight.spoon"
 Highlight.license = "MIT"
 

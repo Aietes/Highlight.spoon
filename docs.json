@@ -1,0 +1,259 @@
+[
+  {
+    "Constant" : [
+
+    ],
+    "submodules" : [
+
+    ],
+    "Function" : [
+
+    ],
+    "Variable" : [
+
+    ],
+    "stripped_doc" : [
+
+    ],
+    "desc" : "Lightweight window highlight helper for Hammerspoon.",
+    "Deprecated" : [
+
+    ],
+    "type" : "Module",
+    "Constructor" : [
+
+    ],
+    "doc" : "Lightweight window highlight helper for Hammerspoon.",
+    "Field" : [
+
+    ],
+    "Command" : [
+
+    ],
+    "Method" : [
+      {
+        "name" : "configure",
+        "doc" : "Applies configuration overrides (border appearance, display timings, filter rules, subscription events).\n\nParameters:\n * options - Table matching the keys in `Highlight.defaults`.\n\nReturns:\n * Highlight - The spoon instance (for chaining).",
+        "parameters" : [
+          " * options - Table matching the keys in `Highlight.defaults`.",
+          ""
+        ],
+        "stripped_doc" : [
+          "Applies configuration overrides (border appearance, display timings, filter rules, subscription events).",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "Highlight:configure(options)",
+        "type" : "Method",
+        "returns" : [
+          " * Highlight - The spoon instance (for chaining)."
+        ],
+        "desc" : "Applies configuration overrides (border appearance, display timings, filter rules, subscription events).",
+        "def" : "Highlight:configure(options)"
+      },
+      {
+        "name" : "init",
+        "doc" : "Ensures defaults are applied before the spoon is used.\n\nParameters:\n * None\n\nReturns:\n * Highlight",
+        "parameters" : [
+          " * None",
+          ""
+        ],
+        "stripped_doc" : [
+          "Ensures defaults are applied before the spoon is used.",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "Highlight:init()",
+        "type" : "Method",
+        "returns" : [
+          " * Highlight"
+        ],
+        "desc" : "Ensures defaults are applied before the spoon is used.",
+        "def" : "Highlight:init()"
+      },
+      {
+        "name" : "start",
+        "doc" : "Marks the spoon as active, subscribes to window focus events, and immediately highlights the focused window.\n\nParameters:\n * None\n\nReturns:\n * Highlight",
+        "parameters" : [
+          " * None",
+          ""
+        ],
+        "stripped_doc" : [
+          "Marks the spoon as active, subscribes to window focus events, and immediately highlights the focused window.",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "Highlight:start()",
+        "type" : "Method",
+        "returns" : [
+          " * Highlight"
+        ],
+        "desc" : "Marks the spoon as active, subscribes to window focus events, and immediately highlights the focused window.",
+        "def" : "Highlight:start()"
+      },
+      {
+        "name" : "stop",
+        "doc" : "Clears any pending highlight drawings, unsubscribes from window events, and deactivates the spoon.\n\nParameters:\n * None\n\nReturns:\n * Highlight",
+        "parameters" : [
+          " * None",
+          ""
+        ],
+        "stripped_doc" : [
+          "Clears any pending highlight drawings, unsubscribes from window events, and deactivates the spoon.",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "Highlight:stop()",
+        "type" : "Method",
+        "returns" : [
+          " * Highlight"
+        ],
+        "desc" : "Clears any pending highlight drawings, unsubscribes from window events, and deactivates the spoon.",
+        "def" : "Highlight:stop()"
+      },
+      {
+        "name" : "highlight",
+        "doc" : "Draws a border around the supplied window (or the focused window if omitted). Automatically invoked when focus changes.\n\nParameters:\n * window - Optional `hs.window` instance.\n\nReturns:\n * Highlight",
+        "parameters" : [
+          " * window - Optional `hs.window` instance.",
+          ""
+        ],
+        "stripped_doc" : [
+          "Draws a border around the supplied window (or the focused window if omitted). Automatically invoked when focus changes.",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "Highlight:highlight(window)",
+        "type" : "Method",
+        "returns" : [
+          " * Highlight"
+        ],
+        "desc" : "Draws a border around the supplied window (or the focused window if omitted). Automatically invoked when focus changes.",
+        "def" : "Highlight:highlight(window)"
+      }
+    ],
+    "items" : [
+      {
+        "name" : "configure",
+        "doc" : "Applies configuration overrides (border appearance, display timings, filter rules, subscription events).\n\nParameters:\n * options - Table matching the keys in `Highlight.defaults`.\n\nReturns:\n * Highlight - The spoon instance (for chaining).",
+        "parameters" : [
+          " * options - Table matching the keys in `Highlight.defaults`.",
+          ""
+        ],
+        "stripped_doc" : [
+          "Applies configuration overrides (border appearance, display timings, filter rules, subscription events).",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "Highlight:configure(options)",
+        "type" : "Method",
+        "returns" : [
+          " * Highlight - The spoon instance (for chaining)."
+        ],
+        "desc" : "Applies configuration overrides (border appearance, display timings, filter rules, subscription events).",
+        "def" : "Highlight:configure(options)"
+      },
+      {
+        "name" : "highlight",
+        "doc" : "Draws a border around the supplied window (or the focused window if omitted). Automatically invoked when focus changes.\n\nParameters:\n * window - Optional `hs.window` instance.\n\nReturns:\n * Highlight",
+        "parameters" : [
+          " * window - Optional `hs.window` instance.",
+          ""
+        ],
+        "stripped_doc" : [
+          "Draws a border around the supplied window (or the focused window if omitted). Automatically invoked when focus changes.",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "Highlight:highlight(window)",
+        "type" : "Method",
+        "returns" : [
+          " * Highlight"
+        ],
+        "desc" : "Draws a border around the supplied window (or the focused window if omitted). Automatically invoked when focus changes.",
+        "def" : "Highlight:highlight(window)"
+      },
+      {
+        "name" : "init",
+        "doc" : "Ensures defaults are applied before the spoon is used.\n\nParameters:\n * None\n\nReturns:\n * Highlight",
+        "parameters" : [
+          " * None",
+          ""
+        ],
+        "stripped_doc" : [
+          "Ensures defaults are applied before the spoon is used.",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "Highlight:init()",
+        "type" : "Method",
+        "returns" : [
+          " * Highlight"
+        ],
+        "desc" : "Ensures defaults are applied before the spoon is used.",
+        "def" : "Highlight:init()"
+      },
+      {
+        "name" : "start",
+        "doc" : "Marks the spoon as active, subscribes to window focus events, and immediately highlights the focused window.\n\nParameters:\n * None\n\nReturns:\n * Highlight",
+        "parameters" : [
+          " * None",
+          ""
+        ],
+        "stripped_doc" : [
+          "Marks the spoon as active, subscribes to window focus events, and immediately highlights the focused window.",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "Highlight:start()",
+        "type" : "Method",
+        "returns" : [
+          " * Highlight"
+        ],
+        "desc" : "Marks the spoon as active, subscribes to window focus events, and immediately highlights the focused window.",
+        "def" : "Highlight:start()"
+      },
+      {
+        "name" : "stop",
+        "doc" : "Clears any pending highlight drawings, unsubscribes from window events, and deactivates the spoon.\n\nParameters:\n * None\n\nReturns:\n * Highlight",
+        "parameters" : [
+          " * None",
+          ""
+        ],
+        "stripped_doc" : [
+          "Clears any pending highlight drawings, unsubscribes from window events, and deactivates the spoon.",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "Highlight:stop()",
+        "type" : "Method",
+        "returns" : [
+          " * Highlight"
+        ],
+        "desc" : "Clears any pending highlight drawings, unsubscribes from window events, and deactivates the spoon.",
+        "def" : "Highlight:stop()"
+      }
+    ],
+    "name" : "Highlight"
+  }
+]

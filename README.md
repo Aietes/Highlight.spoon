@@ -21,7 +21,7 @@ If you use [SpoonInstall](https://www.hammerspoon.org/docs/hs.spoons.html#use):
 hs.loadSpoon("SpoonInstall")
 
 spoon.SpoonInstall.repos.Highlight = {
-    url = "https://github.com/Aites/Highlight.spoon",
+    url = "https://github.com/Aietes/Highlight.spoon",
     desc = "Highlight.spoon repository",
     branch = "main",
 }
